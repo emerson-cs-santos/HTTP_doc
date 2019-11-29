@@ -1,4 +1,4 @@
 <?php
-  require('composer.json');
+ // require('composer.json');
   header("Location: Main.html");
 ?>
