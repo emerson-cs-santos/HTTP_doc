@@ -1,3 +1,2 @@
 <?php
- // require('composer.json');
-  header("Location: Main.html");
+    header("location:./Main.html");
