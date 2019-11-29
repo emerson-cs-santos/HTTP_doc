@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Redes de Computadores - Pontos HTTP</title>
+        <meta charset="utf-8"> 
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    </head>                            
+    
+     <body>
+         <div class='container'>
+            <header class='row'>
+                
+                <div class="col-12">
+                    <nav id="navbar" class="navbar navbar-expand-lg navbar-light" style="background-color: #e3f2fd;">
+                       
+                        <a class="navbar-brand p-4" href="Main.html">Home</a>
+
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="nav nav-pills">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="Lista.html">Principais ponto sobre o HTTP</a>
+                                </li> 
+                                <li class="nav-item">
+                                    <a class="nav-link" href="Detalhes.html">Por dentro da requisição HTTP</a>
+                                </li> 								
+                            </ul>
+                        </div>
+                    </nav>
+
+                    <h1 class="text-center"> Principais ponto sobre o HTTP</h1>
+                </div> 
+            </header>
+
+            <main>
+                <section>
+
+                    <div class='row mt-5'>
+                        <div class='col-4'>
+                            <div class="card" style="width: 18rem;">
+                                <div class="card-body">
+                                    <h5 class="card-title">O que é?</h5>
+                                    <p class="card-text">É a base da troca de informações na web quando falamos de cliente-servidor.</p>
+                                    <p class="card-text">HTTP é o protocolo de comunicação padrão utilizado pelo navegadores, ou seja, ele define as regras utilizadas nas trocas de informações.	</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class='col-4'>
+                            <div class="card" style="width: 18rem;">
+                                <div class="card-body">
+                                    <h5 class="card-title">Como ela basicamente funciona?</h5>
+                                    <p class="card-text">Requisições são realizadas pelo usuário, ao clicar em um link para abrir uma página html por exemplo. </p>
+                                    <p class="card-text">O navegador vai receber essa página (utilizando por padrão a porta 80) e interpretar as marcações do HTML exibindo seu conteudo devidamente formatado para o usuário.</p>
+									<p class="card-text">Nessa requisição que é acionada quando por exemplo o usuário digita o nome do site no navegador, esse por sua vez utiliza o DNS para encontrar o endereço lógico (IP) do servidor onde o site se encontra.</p>
+                                </div>
+                            </div>
+                        </div>     
+                            
+                        <div class='col-4'>
+                            <div class="card" style="width: 18rem;">
+                                <img class="card-img-top" src="Imagens/HTTP.png" alt="Exemplo de comunicação">
+                                <div class="card-body">
+                                    <h5 class="card-title">Comunicação básica</h5>
+                                    <p class="card-text">No lado de cima temos a interface do cliente, apresentado pelo navegador que dispara as resquisições do usuário para o lado de baixo.</p>
+                                    <p class="card-text">No lado de baixo tem a parte de processamento dessas Requisições, desde acesso ao banco de dados a regras de negócio tratando os dados recebidos/encontrados.</p>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+
+                    <div class='row mt-5'>
+                        <div class='col-4'>
+                            <div class="card" style="width: 18rem;">
+                                <div class="card-body">
+                                    <h5 class="card-title">Estado/Sessão</h5>
+                                    <p class="card-text">HTTP não utiliza o conceito de "Estado", uma conexão continua entre os dois lados da comunicação</p>
+									<p class="card-text">Ao inves disso ele utiliza a "Sessão" para saber se precisa enviar toda mensagem novamente ou a partir de algum ponto dela, mas isso requer o uso de cookies.</p>
+                                </div>
+                            </div>
+                        </div>   
+                            
+                        <div class='col-4'>
+                            <div class="card" style="width: 18rem;">
+                                <div class="card-body">
+                                    <h5 class="card-title">Exemplo de Requisição</h5>
+                                    
+									
+									<img class="card-img-top" src="Imagens/HTTP_envio.png" alt="Exemplo de envio">
+									<p class="card-text">Exemplo de uma requisão</p>
+									
+									
+									<img class="card-img-top" src="Imagens/HTTP_resposta.png" alt="Exemplo de resposta">
+									<p class="card-text">Exemplo de uma resposta do servidor. A partir do <a href="Exemplo.html">"!DOCTYPE html"</a> Para baixo, é a página HTML que vai ser exibida.</p>
+
+                                </div>
+                            </div>
+                        </div> 
+						
+                        <div class='col-4'>
+                            <div class="card" style="width: 18rem;">
+                                <div class="card-body">
+                                    <h5 class="card-title">Detalhes de envio/Resposta</h5>
+									<p class="card-text">Acesse a página abaixo para ver os detalhes desse processo:</p>
+									<a href="Detalhes.html"> Detalhes</a>
+                                </div>
+                            </div>
+                        </div>  						
+                    </div>
+                </section>
+            </main>
+
+            <footer class='mt-5' style="background-color: #ccc;">
+                <div class="col-12">
+					<p class='font-weight-bold'> Redes de Computadores - Trabalho </p>
+					<p class='mb-0'>Referência:</p> 
+					<a href= "https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Overview" target="_blank"> Mozilla</a>
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>
