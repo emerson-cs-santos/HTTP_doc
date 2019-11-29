@@ -1,2 +1,2 @@
 <?php
- echo '=D';
+    header("location:./Main.html");
