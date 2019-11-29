@@ -1,0 +1,125 @@
+@font-face {
+  font-family: "Ubuntu";
+  src: url("../fonts/Ubuntu-Bold.woff2") format("woff2"), url("../fonts/Ubuntu-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Ubuntu";
+  src: url("../fonts/Ubuntu-MediumItalic.woff2") format("woff2"), url("../fonts/Ubuntu-MediumItalic.woff") format("woff");
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Ubuntu";
+  src: url("../fonts/Ubuntu-Regular.woff2") format("woff2"), url("../fonts/Ubuntu-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Ubuntu";
+  src: url("../fonts/Ubuntu-BoldItalic.woff2") format("woff2"), url("../fonts/Ubuntu-BoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Ubuntu";
+  src: url("../fonts/Ubuntu-Italic.woff2") format("woff2"), url("../fonts/Ubuntu-Italic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Ubuntu";
+  src: url("../fonts/Ubuntu-Medium.woff2") format("woff2"), url("../fonts/Ubuntu-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Ubuntu";
+  src: url("../fonts/Ubuntu-Light.woff2") format("woff2"), url("../fonts/Ubuntu-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Ubuntu";
+  src: url("../fonts/Ubuntu-LightItalic.woff2") format("woff2"), url("../fonts/Ubuntu-LightItalic.woff") format("woff");
+  font-weight: 300;
+  font-style: italic;
+}
+
+body {
+  font-family: "Ubuntu", sans-serif !important;
+}
+
+.navbar {
+  background: #f29822;
+}
+
+.navbar .navbar-brand {
+  color: #ffff !important;
+}
+
+.tabs-content a {
+  color: #000000;
+}
+
+.tabs-content a:hover {
+  color: #f29822;
+}
+
+.tabs-content .nav-item.nav-link.active {
+  color: #ffff !important;
+}
+
+.tabs-content .nav-pills {
+  margin-top: 50px;
+  cursor: pointer;
+}
+
+.tabs-content .nav-pills .nav-link.active {
+  background: #f29822;
+}
+
+.tabs-content h1 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.tabs-content .div-cont {
+  border-bottom: 1px solid;
+  text-align: center;
+  background: transparent;
+  border-top: 1px solid;
+}
+
+.tabs-content .cont {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.tabs-content .cont span {
+  padding: 0 100px 0px 100px;
+  display: block;
+  text-align: justify;
+}
+
+.tabs-content .cont .img-http {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  width: 60%;
+  border-radius: 5%;
+}
+
+.tabs-content #cont2 h6 {
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+/*# sourceMappingURL=style.css.map */

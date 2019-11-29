@@ -1,0 +1,75 @@
+@import 'fonts';
+@import 'variables';
+
+body{
+    font-family: $font !important;
+}
+
+.navbar{
+    background: $orange;
+
+    .navbar-brand{
+        color: $white !important;
+    }
+}
+
+.tabs-content{
+    a{
+        color: $black;
+    }
+
+    a:hover{
+        color: $orange;
+    }
+
+    .nav-item.nav-link.active{
+        color: $white !important
+    }
+
+    .nav-pills{
+        margin-top: 50px;
+        cursor: pointer;
+        .nav-link.active{
+            background: $orange;
+        }
+    }
+
+    h1{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .div-cont{
+        border-bottom: 1px solid;
+        text-align: center;
+        background: transparent;
+        border-top: 1px solid;
+    }
+
+    .cont{
+        margin-top: 20px;
+        text-align: center;
+
+        span{
+            padding: 0 100px 0px 100px;
+            display: block;
+            text-align: justify;
+        }
+
+        .img-http{
+            margin-top: 40px;
+            margin-bottom: 40px;
+            width: 60%;
+            border-radius: 5%;
+        }
+    }
+
+    #cont2{
+        h6{
+            font-weight: bold;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+    }
+}
+

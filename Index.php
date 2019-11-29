@@ -1,2 +1,2 @@
 <?php
-    header("location:src/index.html");
+    header("location:src/pages/index.html");
