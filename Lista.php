@@ -2,7 +2,7 @@
     include('cabec.php');
 ?>
 
-                    <h1 class="text-center"> Principais ponto sobre o HTTP</h1>
+                    <h1 class="text-center"> Principais pontos sobre o HTTP</h1>
                 </div> 
             </header>
 

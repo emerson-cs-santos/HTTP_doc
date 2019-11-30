@@ -27,11 +27,14 @@
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul class="nav nav-pills">
                                 <li class="nav-item">
-                                    <a class="nav-link" href="Lista.php">Principais ponto sobre o HTTP</a>
+                                    <a class="nav-link" href="Lista.php">Principais pontos sobre o HTTP</a>
                                 </li>  
                                 <li class="nav-item">
                                     <a class="nav-link" href="Detalhes.php">Por dentro da requisição HTTP</a>
-                                </li> 								
+                                </li> 	
+                                <li class="nav-item">
+                                    <a class="nav-link" href="HTTPS.php">HTTP vs HTTPS</a>
+                                </li>                                 							
                             </ul>
                         </div>
                     </nav>
