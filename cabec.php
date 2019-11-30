@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
     <head>
-        <title>Redes de Computadores</title>
+        <title>Redes de Computadores - Detalhes requisição</title>
         <meta charset="utf-8"> 
 
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -18,7 +18,7 @@
                 <div class="col-12">
                     <nav id="navbar" class="navbar navbar-expand-lg navbar-light" style="background-color: #e3f2fd;">
                        
-                        <a class="navbar-brand p-4" href="Main.html">Home</a>
+                        <a class="navbar-brand p-4" href="index.php">Home</a>
 
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
@@ -27,44 +27,11 @@
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul class="nav nav-pills">
                                 <li class="nav-item">
-                                    <a class="nav-link" href="Lista.html">Principais pontos sobre o HTTP</a>
-                                </li>      
-
+                                    <a class="nav-link" href="Lista.php">Principais ponto sobre o HTTP</a>
+                                </li>  
                                 <li class="nav-item">
-                                    <a class="nav-link" href="Detalhes.html">Por dentro da requisição HTTP</a>
+                                    <a class="nav-link" href="Detalhes.php">Por dentro da requisição HTTP</a>
                                 </li> 								
                             </ul>
                         </div>
                     </nav>
-
-                    <h1 class="text-center" >Redes de Computadores - O que é o HTTP?</h1>
-                </div> 
-            </header>
-
-            <main>
-                <section class='row'>
-
-                    <div class='col-12'>
-
-                        <div class="jumbotron">
-                            <h2 class="display-4">HTTP</h2>
-                            <p class="lead">Protocolo de comunicação utilizado na web para troca de informações.</p>
-                            <hr class="my-4">
-                            <p>Principais pontos sobre HTTP</p>
-                            <a class="btn btn-primary btn-lg" href="Lista.html" role="button">Abrir</a>
-                        </div>                        
-
-                    </div>
-                </section>
-            </main>
-
-            <footer class='mt-5' style="background-color: #ccc;">
-                <div class="col-12">
-					<p class='font-weight-bold'> Redes de Computadores - Trabalho </p>
-					<p class='mb-0'>Referência:</p> 
-					<a href= "https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Overview" target="_blank"> Mozilla</a>
-                </div>
-            </footer>
-        </div>
-    </body>
-</html>
