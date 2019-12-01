@@ -16,7 +16,7 @@
                             <p class="lead">Protocolo de comunicação utilizado na web para troca de informações.</p>
                             <hr class="my-4">
                             <p>Principais pontos sobre HTTP</p>
-                            <a class="btn btn-primary btn-lg" href="Lista.html" role="button">Abrir</a>
+                            <a class="btn btn-primary btn-lg" href="Lista.php" role="button">Abrir</a>
                         </div>                        
 
                     </div>

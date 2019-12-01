@@ -28,12 +28,12 @@
 									</li>
 									<li>
 										<p class='card-text font-weight-bold mb-0'>Versão</p>
-										<p class="card-text">Versão do protolo HTTP, a 1.1 ou anterior são legiveis já a 2.0 utiliza estrutura binária.</p>
+										<p class="card-text">Versão do protolo HTTP, a 1.1 ou anterior são legíveis já a 2.0 utiliza estrutura binária.</p>
 									</li>		
 
 									<li>
 										<p class='card-text font-weight-bold mb-0'>Cabeçalho</p>
-										<p class="card-text">Pode conter informações opcionais como neste caso o idioma, mas o método POST por exemplo passa seu conteudo pelo cabeçalho.</p>
+										<p class="card-text">Pode conter informações opcionais como neste caso o idioma, mas o método POST por exemplo passa seu conteúdo pelo cabeçalho.</p>
 									</li>
 								</ul>
                             </div>
@@ -54,7 +54,7 @@
 									</li>
 									<li>
 										<p class='card-text font-weight-bold mb-0'>Cabeçalho</p>
-										<p class="card-text">Opcionalmente é retornado aqui os dados solicitados, mas as veses apenas o código de status como ok já pode ser o suficiente.</p>
+										<p class="card-text">Opcionalmente é retornado aqui os dados solicitados, mas as vezes apenas o código de status como ok já pode ser o suficiente.</p>
 									</li>
 								</ul>
                             </div>

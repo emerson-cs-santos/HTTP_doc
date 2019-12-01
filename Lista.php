@@ -25,7 +25,7 @@
                                 <div class="card-body">
                                     <h5 class="card-title">Como ela basicamente funciona?</h5>
                                     <p class="card-text">Requisições são realizadas pelo usuário, ao clicar em um link para abrir uma página html por exemplo. </p>
-                                    <p class="card-text">O navegador vai receber essa página (utilizando por padrão a porta 80) e interpretar as marcações do HTML exibindo seu conteudo devidamente formatado para o usuário.</p>
+                                    <p class="card-text">O navegador vai receber essa página (utilizando por padrão a porta 80) e interpretar as marcações do HTML exibindo seu conteúdo devidamente formatado para o usuário.</p>
 									<p class="card-text">Nessa requisição que é acionada quando por exemplo o usuário digita o nome do site no navegador, esse por sua vez utiliza o DNS para encontrar o endereço lógico (IP) do servidor onde o site se encontra.</p>
                                 </div>
                             </div>
@@ -36,7 +36,7 @@
                                 <img class="card-img-top" src="Imagens/HTTP.png" alt="Exemplo de comunicação">
                                 <div class="card-body">
                                     <h5 class="card-title">Comunicação básica</h5>
-                                    <p class="card-text">No lado de cima temos a interface do cliente, apresentado pelo navegador que dispara as resquisições do usuário para o lado de baixo.</p>
+                                    <p class="card-text">No lado de cima temos a interface do cliente, apresentado pelo navegador que dispara as requisições do usuário para o lado de baixo.</p>
                                     <p class="card-text">No lado de baixo tem a parte de processamento dessas Requisições, desde acesso ao banco de dados a regras de negócio tratando os dados recebidos/encontrados.</p>
                                 </div>
                             </div>
@@ -49,7 +49,7 @@
                                 <div class="card-body">
                                     <h5 class="card-title">Estado/Sessão</h5>
                                     <p class="card-text">HTTP não utiliza o conceito de "Estado", uma conexão continua entre os dois lados da comunicação</p>
-									<p class="card-text">Ao inves disso ele utiliza a "Sessão" para saber se precisa enviar toda mensagem novamente ou a partir de algum ponto dela, mas isso requer o uso de cookies.</p>
+									<p class="card-text">Ao invés disso ele utiliza a "Sessão" para saber se precisa enviar toda mensagem novamente ou a partir de algum ponto dela, mas isso requer o uso de cookies.</p>
                                 </div>
                             </div>
                         </div>   
@@ -57,7 +57,7 @@
                         <div class='col-4'>
                             <div class="card" style="width: 18rem;">
                                 <div class="card-body">
-                                    <h5 class="card-title">Exemplo de Requisição</h5>
+                                    <h5 class="card-title">Exemplo de requisição</h5>
                                     
 									
 									<img class="card-img-top" src="Imagens/HTTP_envio.png" alt="Exemplo de envio">
@@ -76,7 +76,7 @@
                                 <div class="card-body">
                                     <h5 class="card-title">Detalhes de envio/Resposta</h5>
 									<p class="card-text">Acesse a página abaixo para ver os detalhes desse processo:</p>
-									<a href="Detalhes.html"> Detalhes</a>
+									<a href="Detalhes.php"> Detalhes</a>
                                 </div>
                             </div>
                         </div>  						
