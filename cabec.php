@@ -34,7 +34,11 @@
                                 </li> 	
                                 <li class="nav-item">
                                     <a class="nav-link" href="HTTPS.php">HTTP vs HTTPS</a>
-                                </li>                                 							
+                                </li>   
+
+                                <li class="nav-item">
+                                    <a class="nav-link" href="Api.php">API Rest</a>
+                                </li>
                             </ul>
                         </div>
                     </nav>
